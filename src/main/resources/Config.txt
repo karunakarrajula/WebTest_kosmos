@@ -1,0 +1,20 @@
+#General configuration details:
+MAX_WAIT_TIME_SECONDS=8
+IMPLICIT_WAIT_TIME_SECONDS=2
+MAX_INVISIBLE_WAIT_TIME_SECONDS=25
+ENV=PROD
+
+#Screenshot path details:
+SCREENSHOTPATH=Report/
+SUCCESS_SCREENSHOTPATH=Report/SuccessScreenShot/
+
+TESTBEDNAME=Chrome
+
+
+#Browser exe file Path
+CHROMEDRIVERPATH=src/main/resources/chromedriver.exe
+EDGEDRIVERPATH=src/main/resources/EdgeDriver.exe
+
+BASEURL=https://www.mypedia.pearson.com/
+
+

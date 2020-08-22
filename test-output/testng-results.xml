@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-22T01:59:20 IST" name="Suite" finished-at="2020-08-22T02:00:01 IST" duration-ms="41360">
+    <groups>
+      <group name="Sanity">
+        <method signature="LoginTest.verifySelectLanguageFunctionality()[pri:2, instance:com.pearson.test.LoginTest@14a50707]" name="verifySelectLanguageFunctionality" class="com.pearson.test.LoginTest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="LoginTest.verifySelectLanguageFunctionality()[pri:2, instance:com.pearson.test.LoginTest@14a50707]" name="verifySelectLanguageFunctionality" class="com.pearson.test.LoginTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="LoginTest.verifySelectLanguageFunctionality()[pri:2, instance:com.pearson.test.LoginTest@14a50707]" name="verifySelectLanguageFunctionality" class="com.pearson.test.LoginTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2020-08-22T01:59:20 IST" name="Validating Pearson Login Home Page" finished-at="2020-08-22T02:00:01 IST" duration-ms="41360">
+      <class name="com.pearson.test.LoginTest">
+        <test-method is-config="true" signature="prepareBeforeTest()[pri:0, instance:com.pearson.test.LoginTest@14a50707]" started-at="2020-08-22T01:59:20 IST" name="prepareBeforeTest" finished-at="2020-08-22T01:59:26 IST" duration-ms="6179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareBeforeTest -->
+        <test-method signature="verifySelectLanguageFunctionality()[pri:2, instance:com.pearson.test.LoginTest@14a50707]" started-at="2020-08-22T01:59:26 IST" name="verifySelectLanguageFunctionality" description="Verify that after Selecting the language &#039;CONTINUE&#039; button text is as expected value" finished-at="2020-08-22T02:00:01 IST" duration-ms="35124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectLanguageFunctionality -->
+        <test-method is-config="true" signature="driverCleanUp()[pri:0, instance:com.pearson.test.LoginTest@14a50707]" started-at="2020-08-22T02:00:02 IST" name="driverCleanUp" finished-at="2020-08-22T02:00:03 IST" duration-ms="727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverCleanUp -->
+      </class> <!-- com.pearson.test.LoginTest -->
+    </test> <!-- Validating Pearson Login Home Page -->
+  </suite> <!-- Suite -->
+</testng-results>
